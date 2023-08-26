@@ -51,14 +51,26 @@ footer {
 .tile {
   /* TODO: MODULE_CARDS */
   /* 1. Fill in the required properties. */
+  height: 100%;
+  position: relative;
+  overflow: clip;
+  border-radius: 0.625rem;
+  
 }
 .tile img {
   /* TODO: MODULE_CARDS */
   /* 1. Fill in the required properties. */
+  transition: all 0.5s ease;
+  max-width: 100%;
+  min-height: 100%;
+  border-radius: 0.625rem;
 }
 .tile img:hover {
   /* TODO: MODULE_CARDS */
   /* 1. Fill in the required properties. */
+  transition: all 0.5s ease;
+  filter: brightness(50%);
+  transform: scale(1.2);
 }
 
 /* Hint: Notice the position:absolute and z-index properties. */
