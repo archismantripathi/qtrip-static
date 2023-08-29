@@ -120,10 +120,15 @@ footer {
 .adventure-card img {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  transition: all 0.5s ease;
+  height: 20rem;
+  object-fit: cover;
 }
 .adventure-card img:hover {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  transition: all 0.5s ease;
+  filter: brightness(50%);
 }
 
 /* ================================== */
