@@ -99,6 +99,7 @@ footer {
 }
 .hero-input {
   width: 80%;
+  max-width: 60rem;
   height: 50px;
   padding: 16px;
   border-radius: 8px;
